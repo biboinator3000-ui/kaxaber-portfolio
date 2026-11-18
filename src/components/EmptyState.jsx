@@ -1,0 +1,1 @@
+export default function EmptyState({ title = 'შედეგი ვერ მოიძებნა', text = 'სცადეთ სხვა საძიებო სიტყვა.' }) { return <div className="rounded-3xl border border-dashed border-slate-300 bg-white p-10 text-center"><p className="text-lg font-bold text-slate-800">{title}</p><p className="mt-2 text-slate-500">{text}</p></div> }

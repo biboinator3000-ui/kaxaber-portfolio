@@ -1,0 +1,2 @@
+import { Link } from 'react-router-dom'
+export default function NotFound() { return <section className="mx-auto flex min-h-[65vh] max-w-6xl flex-col items-center justify-center px-5 text-center"><p className="text-7xl font-black text-violet-600">404</p><h1 className="mt-4 text-3xl font-bold text-slate-950">გვერდი ვერ მოიძებნა</h1><p className="mt-3 text-slate-600">შესაძლოა მისამართი არასწორია ან გვერდი აღარ არსებობს.</p><Link to="/" className="button-primary mt-8">მთავარ გვერდზე დაბრუნება</Link></section> }

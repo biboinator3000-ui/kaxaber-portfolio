@@ -1,0 +1,1 @@
+export default function Loading({ label = 'მონაცემები იტვირთება...' }) { return <div className="flex min-h-52 flex-col items-center justify-center gap-4 rounded-3xl border border-slate-200 bg-white text-slate-600"><span className="h-9 w-9 animate-spin rounded-full border-4 border-violet-100 border-t-violet-600" aria-hidden="true" /><p>{label}</p></div> }
